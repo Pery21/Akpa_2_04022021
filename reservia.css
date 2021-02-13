@@ -44,3 +44,31 @@ a:link {
     text-decoration: none;
     background-color: transparent;
 }
+
+.main {
+    margin: auto;
+    padding: 0 32px;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    display: block;
+}
+
+h1 {
+    font-size: 32px;
+    margin-top: 10px;
+    margin-right: 0;
+    margin-left: 0;
+}
+.grd_titre {
+    margin-bottom: 8px;
+}
+
+.pti_titre {
+    margin-top: 0;
+}
+
+.recherche {
+    display: inline-flex;
+    max-width: 100%;
+    overflow: auto;
+}
