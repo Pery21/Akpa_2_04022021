@@ -19,19 +19,39 @@
             <navbar id="menu">
                 <a class="heb" href="#Hébergements">Hébergements</a>
                 <a class="act" href="#Activités">Activités</a>
+                <a class="ins" href="#">S'inscrire</a>
             </navbar>
-            <a class="ins" href="#">S'inscrire</a>
+            
         </header>
         <main class="main">
+
             <section class="search">
+
                 <header>
                     <h1 class="grd_titre">Trouver votre hébergement pour des vacances de rêve</h1>
                     <p class="pti_titre">En plein centre ville ou en pleine nature</p>
                 </header>
                 <form class="recherche" method="GET" action="#">
-                    <span><i class="fas fa-map-marker-alt"></i></span>
+                    <span class="icon"><i class="fas fa-map-marker-alt"></i></span>
                     <input type="search" class="zone_saisie" placeholder="Marseille, France" size="1">
+                    <button class="bouton_rechercher">
+                        <span class="rech">Rechercher</span>
+                    </button>
                 </form>
+                <div class="filtres">
+
+                    <h2 class="filtr">Filtres</h2>
+                    <div class="eco"><div class="icon-eco"><i class="fas fa-money-bill-wave" id="money"></i></div><span class="economique">Économique</span></div>
+                    <div class="fam"><div class="icon-fam"><i class="fa fa-child" id="child"></i></div><span class="familial">Familial</span></div>
+                    <div class="rom"><div class="icon-rom"><i class="fa fa-heart" id="heart"></i></div><span class="romantique">Romantique</span></div>
+                    <div class="anim"><div class="icon-anim"><i class="fa fa-dog" id="dog"></i></div><span class="animaux">Animaux autorisés</span></div>
+
+                </div>
+                <div class="info">
+                    <div class="icon-info"><i class="fa fa-info" id="infos"></i></div><span class="text-info">Plus de 500 logements
+                        sont disponibles dans cette ville</span>
+                </div>
+
             </section>
         </main>
 
