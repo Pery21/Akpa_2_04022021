@@ -1,37 +1,10 @@
 body {margin: 0; display: block;}
+
 #entete {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     font-family: 'Raleway', sans-serif;
-}
-
-@media screen and (min-width:600px) {
-    #menu {
-            flex-basis: 79%;
-            display: flex;
-            align-items: center;
-            justify-content: flex-end;
-        
-        }
-}
-
-@media screen and (max-width:600px) {
-    #menu {order:2;}
-    .heb {
-        border-top: none;
-        padding: 32px;
-        font-weight: 500;
-        text-align: center;
-        border-bottom: 3px #0065FC solid;
-    }
-    .act {
-        padding: 32px;
-        font-weight: 500;
-        text-align: center;
-        border-top: 3px transparent solid;
-        border-bottom: 3px transparent solid;
-    }
 }
 
 #menu {
@@ -44,6 +17,9 @@ body {margin: 0; display: block;}
 .logo {
     
     padding: 2%;
+    font-family: 'Rancho', cursive;
+    font-size: 4em;
+    color: #0065FC;
 }
 
 .heb {
@@ -75,6 +51,9 @@ a:link {
     background-color: transparent;
     color: black;
 }
+
+
+
 .main {
     margin: auto;
     padding: 0 32px;
@@ -397,7 +376,6 @@ img {border:none}
 #popu {
     display: flex;
     align-items: stretch;
-    height: 100%;
     overflow: auto;
 }
 
@@ -416,6 +394,7 @@ img {border:none}
     width: 33%;
     min-width: 33%;
     max-width: 33%;
+    height: 120px;
 }
 
 .image-pop {
