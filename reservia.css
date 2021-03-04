@@ -323,9 +323,9 @@ h3 {
     display: block;
     font-size: 18px;
     margin-top: 16px;
-    margin-block-end: 16px;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+    margin-bottom: 16px;
+    margin-left: 0px;
+    margin-right: 0px;
     font-weight: bold;
 }
 
@@ -337,9 +337,9 @@ p {
     display: block;
     font-size: 18px;
     margin-top: 16px;
-    margin-block-end: 16px;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+    margin-bottom: 16px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 .description {margin:4px 12px 4px 12px;}
@@ -507,9 +507,9 @@ img {border:none}
     display: block;
     font-size: 15px;
     margin-top: 10px;
-    margin-block-end: 5px;
-    margin-inline-start: 10px;
-    margin-inline-end: 0px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 0px;
     font-weight: bold;
     min-width: 50px;
 }
