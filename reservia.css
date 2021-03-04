@@ -453,6 +453,7 @@ img {border:none}
     flex-flow: row wrap;
     justify-content: space-around;
     margin: 5px 0;
+    margin-bottom: 50px;
     height: 400px;
 }
 
@@ -532,4 +533,30 @@ img {border:none}
     margin-inline-end: 0px;
     font-weight: bold;
     min-width: 50px;
+}
+
+.pied {
+    background-color: #F2F2F2;
+    display: block;
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+}
+
+.groupe-imp {
+    display: flex;
+    max-width: 100%;
+    width: 1440px;
+    margin: auto;
+    padding: 0 32px;
+    box-sizing: border-box;
+}
+
+.groupe {
+    width: 30%;
+    padding: 32px 32px;
+}
+
+.lien-footer {
+    display: block;
+    margin: 16px 0;
 }
