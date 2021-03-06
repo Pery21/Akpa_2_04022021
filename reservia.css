@@ -7,7 +7,7 @@ body {margin: 0; display: block;}
     font-family: 'Raleway', sans-serif;
 }
 
-#menu {
+.menu {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -52,7 +52,10 @@ a:link {
     color: black;
 }
 
-
+.article:hover, .popu:hover, .art-activite:hover, .deux-en-un:hover, .icone:hover {
+    -webkit-transform:scale(1.09);
+    -webkit-transition: all 0.1s ease
+}
 
 .main {
     margin: auto;
@@ -132,7 +135,7 @@ h1 {
     flex-wrap: wrap;
 }
 
-.eco {
+.icone {
     display: flex;
     align-items: center;
     margin-right: 32px;
@@ -142,37 +145,7 @@ h1 {
     font-weight: bold;
 }
 
-.fam {
-    display: flex;
-    align-items: center;
-    margin-right: 32px;
-    margin-bottom: 16px;
-    border: 2px solid #d9d9d9;
-    border-radius: 32px;
-    font-weight: bold;
-}
-
-.rom {
-    display: flex;
-    align-items: center;
-    margin-right: 32px;
-    margin-bottom: 16px;
-    border: 2px solid #d9d9d9;
-    border-radius: 32px;
-    font-weight: bold;
-}
-
-.anim {
-    display: flex;
-    align-items: center;
-    margin-right: 32px;
-    margin-bottom: 16px;
-    border: 2px solid #d9d9d9;
-    border-radius: 32px;
-    font-weight: bold;
-}
-
-.icon-eco {
+.iconus {
     background-color: #DEEBFF;
     border-radius: 100%;
     height: 48px;
@@ -185,43 +158,8 @@ h1 {
     margin: -2px;
 }
 
-.icon-fam {
-    background-color: #DEEBFF;
-    border-radius: 100%;
-    height: 48px;
-    width: 48px;
-    min-height: 56px;
-    min-width: 56px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: -2px;
-}
-
-.icon-rom {
-    background-color: #DEEBFF;
-    border-radius: 100%;
-    height: 48px;
-    width: 48px;
-    min-height: 56px;
-    min-width: 56px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: -2px;
-}
-
-.icon-anim {
-    background-color: #DEEBFF;
-    border-radius: 100%;
-    height: 48px;
-    width: 48px;
-    min-height: 56px;
-    min-width: 56px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: -2px;
+.icone:hover {
+    background-color: #c8d3e2;
 }
 
 #money, #child, #heart, #dog {color: blue}
@@ -248,7 +186,6 @@ h1 {
 }
 
 .section2 {
-    
     display: flex;
     flex-wrap: wrap;
     width: 100%;
@@ -348,8 +285,8 @@ p {
     margin: 0 12px 4px 12px;
 }
 
-#etoile-grise {color:#d9d9d9;}
-#etoile-bleue {color: #0065FC;}
+.etoile-grise {color:#d9d9d9;}
+.etoile-bleue {color: #0065FC;}
 img {border:none}
 
 .contenu-populaire {
@@ -373,7 +310,7 @@ img {border:none}
     justify-content: space-between;
 }
 
-#popu {
+.popula {
     display: flex;
     align-items: stretch;
     overflow: auto;
@@ -453,7 +390,7 @@ img {border:none}
     height: 350px;
 }
 
-#imge {
+.imge {
     display: flex;
     justify-content: space-between;
     flex-flow: row wrap;
@@ -468,7 +405,7 @@ img {border:none}
     object-fit: cover;
 }
 
-#imge1 {
+.imge1 {
     position: relative;
     height: 100%;
     width: 100%;
@@ -492,7 +429,7 @@ img {border:none}
     margin-top: 70px;
 }
 
-#deux-en-un {
+.deux-en-un {
     width: 100%;
     box-shadow: 0 0 20px #0000002e;
     border-radius: 16px;
@@ -503,7 +440,7 @@ img {border:none}
     margin-bottom: 20px;
 }
 
-#text-deux-en-un, #solo {
+.text-deux-en-un, .solo {
     display: block;
     font-size: 15px;
     margin-top: 10px;
